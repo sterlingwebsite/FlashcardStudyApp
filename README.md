@@ -15,8 +15,6 @@ This app is a **Flashcard Study App** built to help students improve vocabulary 
 
 My purpose in creating this app was to go beyond just following a tutorial — I wanted to design and build a complete, working piece of software on my own, applying Kotlin fundamentals and Android UI patterns to solve a real problem (studying vocabulary) in a way I could actually use myself.
 
-[Software Demo Video](http://youtube.link.goes.here)
-
 # Development Environment
 
 I developed this app using **Android Studio** on Windows, and tested it across multiple **Android Virtual Device (AVD) Emulator** profiles — including phone, small phone, and tablet configurations — to confirm the layout adapted correctly to different screen sizes.
