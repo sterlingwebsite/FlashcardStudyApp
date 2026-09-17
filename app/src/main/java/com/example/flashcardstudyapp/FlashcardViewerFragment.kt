@@ -71,7 +71,6 @@ class FlashcardViewerFragment : Fragment() {
                 DeckRepository.setMastered(requireContext(), card, true)
                 Toast.makeText(requireContext(), "Marked as mastered!", Toast.LENGTH_SHORT).show()
 
-                // The deck just shrank by one, so re-clamp the index
                 val newActive = activeDeck()
                 if (currentIndex >= newActive.size) {
                     currentIndex = 0
